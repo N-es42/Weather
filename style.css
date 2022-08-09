@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:rgb(251, 245, 235);
+    font-family: monospace,sans-serif;
+    background-image: url(assets/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+    background: rgba(0,0,0, .3);
+    height: 100vh;
+}
+.header h1{
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+.header input{
+    font-family: "verdana" !important;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    background: transparent;
+    color: aliceblue;
+    outline: 0;
+    border: none;
+    border-bottom: rgb(199, 166, 131) 2px solid;
+    margin-bottom: 20px;
+   
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(220, 220, 220);
+    opacity: 1; /* Firefox */
+  }
+
+.content .city{
+    font-size: 35px;
+    padding-bottom: 15px;
+    text-shadow: 3px 3px black;
+}
+.content .temp{
+    font-size: 31px;
+    text-shadow: 3px 3px black;
+    padding-bottom: 15px;
+}
+.content .desc{
+    font-size: 27px;
+    text-shadow: 3px 3px black;
+    padding-bottom: 15px;
+}
+.content .minmax{
+    font-size: 25px;
+    text-shadow: 3px 3px black;
+    padding-bottom: 15px;
+}
