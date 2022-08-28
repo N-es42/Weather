@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: myFont;
+    src: url(fonts/SFPRODISPLAYMEDIUM.OTF);
+}
 body{
     color:rgb(255, 255, 255);
-    font-family: monospace,sans-serif;
-    background-image: url(assets/bg2.jpg);
+    font-family: myFont !important;
+    background-image: url(assets/arkaplan4.png);
     background-position: center;
     background-repeat: repeat-y;
     background-size: cover;
@@ -20,7 +24,6 @@ body{
     align-items: center;
     text-align: center;
     padding-top: 90px;
-    background: rgba(0,0,0, .2);
     height: 100vh;
 }
 .header h1{
@@ -29,8 +32,7 @@ body{
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
 .header input{
-    font-family: "verdana" !important;
-    font-style: italic;
+    font-family: myFont !important;
     font-size: 25px;
     font-weight: bold;
     background: transparent;
@@ -40,7 +42,7 @@ body{
     border-bottom: rgb(245, 245, 245) 2px solid;
     margin-bottom: 20px;
     text-align: center;
-   padding-bottom: 10px;
+   /* padding-bottom: 10px; */
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgb(220, 220, 220);
@@ -50,21 +52,21 @@ body{
 .content .city{
     font-size: 40px;
     padding-bottom: 15px;
-    text-shadow: 2px 2px black;
+    /* text-shadow: 2px 2px black; */
 }
 .content .temp{
     font-size: 36px;
-    text-shadow: 3px 3px black;
+    /* text-shadow: 3px 3px black; */
     padding-bottom: 15px;
 }
 .content .desc{
     font-size: 32px;
-    text-shadow: 3px 3px black;
+    /* text-shadow: 3px 3px black; */
     padding-bottom: 15px;
 }
 .content .minmax{
     font-size: 30px;
-    text-shadow: 3px 3px black;
+    /* text-shadow: 3px 3px black; */
     padding-bottom: 15px;
 }
 .loader_bg{
@@ -139,3 +141,22 @@ body{
     font-size: 18px;
 }
 
+.bum{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+}
+
+.golge{
+    background-color: rgba(0, 0, 0, .1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+}
+
+.content{
+    font-family: myFont !important;
+}
+body{
+    color: #fff !important;
+}
