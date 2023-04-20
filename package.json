@@ -1,0 +1,11 @@
+{
+  "name": "havadurumu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Warde Enes",
+  "license": "ISC"
+}
